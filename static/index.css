@@ -1,0 +1,114 @@
+body {
+    background-color: #191b26;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+.logo-container {
+    margin: 1em;
+}
+
+.logo-team {
+    font-family: "samsung-sans";
+    font-size: 5vw;
+    color: #9cb1ff;
+}
+
+.logo-board {
+    font-family: "samsung-sans";
+    font-size: 8vw;
+    color: #9cb1ff;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.section {
+    background-color: #2e303a;
+    border-radius: 1em;
+    padding: 1em 2em;
+    min-height: 8vh;
+    margin-bottom: 2em;
+}
+
+.section-title {
+    font-family: "samsung-one";
+    font-weight: 700;
+    color: #85a3ff;
+    font-size: 6vw;
+    margin-bottom: 1vh;
+}
+
+.section-item {
+    font-family: 'samsung-one';
+    font-weight: 400;
+    color: white;
+    padding-left: 2vw;
+    margin: 2em 0;
+}
+
+.item-korean {
+    font-size: 3vw;
+}
+
+.item-english {
+    margin-top: 0.1vh;
+    font-size: 2vw;
+}
+
+.whisper-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #454650;
+    border-radius: 4em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.whisper-logo {
+    background-color: #9cb1ff;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whisper-image {
+    width: 3em;
+    height: 3em;
+}
+
+.whisper-sentence {
+    color: white;
+    font-family: "samsung-one";
+    font-weight: 700;
+    margin-left: 2vw;
+    font-size: 4vw;
+}
+
+.whisper-link {
+    text-decoration: none;
+}
+
+.event-section {
+    margin-top: 2em;
+}
+
+.event-item {
+    color: #8f9097;
+    font-family: 'samsung-one';
+    font-weight: 400;
+}
